@@ -13,3 +13,8 @@ variable "resource_group" {
   description = "The resource group to use. If unspecified, the account's default resource group is used."
 }
 
+variable "vpc_name" {
+  default     = "test-malar-vpc"
+  description = "The VPC name."
+}
+
